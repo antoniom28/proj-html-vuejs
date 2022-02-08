@@ -5,10 +5,8 @@
             <h1>Pro Barbers</h1>
             <Button msg="MEET YOUR NEW BARBER"/>
         </div>
-    <Median class-color="color-0 top"/>
     </div>
 </template>
-
 <script>
 import Button from '../common/Button.vue'
 import Median from '../common/Median.vue'
@@ -37,7 +35,7 @@ export default {
 
 .pro-barber{
     display: inline-block;
-    margin: 100px 0;
+    margin: 160px 0;
 }
 
 span{

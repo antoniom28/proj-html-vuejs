@@ -1,18 +1,18 @@
 <template>
-    <div id="services" class="">
-        <Median classColor="color-0 top"/>
+    <div id="products" class="">
+        <Median classColor="color-1 top"/>
         <div class="title">
-            <span>MENS GROOMING</span>
-            <h1>Services</h1>
+            <span>WE HAVE YOU COVERED</span>
+            <h1>Avada Grooming Products</h1>
         </div>
-        <div class="services-box">
+        <div class="products-box">
             <BoxThumbTitle 
-                v-for="(data,index) in dataServices"
+                v-for="(data,index) in dataProducts"
                 :key="index"
                 :data="data"
             />
         </div>
-        <Button msg="READ ABOUT OUT SERVICES" />
+        <Button msg="SHOP OUR PRODUCT RANGE" />
     </div>
 </template>
 
@@ -23,10 +23,10 @@ import AllData from '../../assets/data/AllData.json'
 import Median from '../common/Median.vue'
 
 export default {
-    name: "Services",
+    name: "AvadaProducts",
     data(){
         return{
-            dataServices: AllData.services, 
+            dataProducts: AllData.products, 
         }
     },
     components: {
@@ -41,20 +41,21 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/style/partials/variables.scss';
-#services{
+#products{
     text-align: center;
+    background-image: url(../../assets/img/Main/avadabarbers-reviewsbackground.jpg);
+    background-size: cover;
     padding-bottom: 160px;
 }
 
-#services > *:not(:first-child){
+#products > *:not(:first-child){
     margin-bottom: 50px;
 }
 
-.services-box{
+.products-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 100px;
 }
 
 span{

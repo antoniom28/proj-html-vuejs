@@ -24,5 +24,41 @@
             "text" : "Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.",
             "textColor" : "color-2"
         }
+    ],
+
+
+    "products" : [
+        {
+            "thumb" : "brush_dark.png",
+            "thumbSize" : "medium",
+            "title" : "Brush",
+            "titleColor" : "color-1",
+            "text" : "$15.00",
+            "textColor" : "color-1"
+        },
+        {
+            "thumb" : "scissors.png",
+            "thumbSize" : "medium",
+            "title" : "Scissors",
+            "titleColor" : "color-1",
+            "text" : "$85.00",
+            "textColor" : "color-1"
+        },
+        {
+            "thumb" : "hot_oil_dark.png",
+            "thumbSize" : "medium",
+            "title" : "Hot Oil",
+            "titleColor" : "color-1",
+            "text" : "$15.00",
+            "textColor" : "color-1"
+        },
+        {
+            "thumb" : "straight_razor_dark.png",
+            "thumbSize" : "medium",
+            "title" : "Straight Razor",
+            "titleColor" : "color-1",
+            "text" : "$30.00",
+            "textColor" : "color-1"
+        }
     ]
 }

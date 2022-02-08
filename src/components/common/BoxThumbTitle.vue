@@ -35,7 +35,7 @@ export default {
 @import '../../assets/style/partials/variables.scss';
 
 .classic-box > *{
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 span{
@@ -53,6 +53,12 @@ img.e-small{
 }
 img.small{
     width: 80px;
+}
+img.s-medium{
+    width: 180px;
+}
+img.medium{
+    width: 280px;
 }
 
 h1{
