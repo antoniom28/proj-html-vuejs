@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header />
-
+    <HeaderTail />
     <Main />
 
     <Footer />
@@ -12,6 +12,7 @@
 import Main from "./components/macro/Main.vue";
 import Footer from "./components/macro/Footer.vue";
 import Header from "./components/macro/Header.vue";
+import HeaderTail from "./components/section/HeaderTail.vue";
 
 export default {
   name: "App",
@@ -23,6 +24,7 @@ export default {
     Main,
     Footer,
     Header,
+    HeaderTail,
   },
 };
 </script>

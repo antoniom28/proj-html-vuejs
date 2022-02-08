@@ -36,9 +36,6 @@ export default {
     width: 400px;
 }
 
-.barber-shop{
-}
-
 .header-main-box{
     //margin-left: 150px;
     display: flex;
@@ -55,7 +52,6 @@ export default {
 
 h1{
     color: white;
-    font-size: 3em;
 }
 
 hr{

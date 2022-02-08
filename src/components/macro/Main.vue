@@ -1,16 +1,6 @@
 <template>
     <main class="container">
-        <!-- <elem />
-        
-
-        <div class="pro-barber">
-            <p>AWARD WINNING</p>
-            <h2>Pro Barbers</h2>
-            <a href="#" class="learn-button">
-                MEET YOUR NEW BARBER
-            </a>
-        </div>
-         -->
+        <!-- <elem /> -->
         {{msg}}
     </main>
 </template>

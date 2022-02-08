@@ -26,7 +26,8 @@ export default {
     border: 2px solid $text_color;
     color: $text_color;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1em;
+    margin-top: 5px;
     padding: 7px 20px;
 }
 </style>
