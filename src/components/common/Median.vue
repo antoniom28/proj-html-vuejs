@@ -38,7 +38,7 @@ img{
 }
 
 .bottom{
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(-60px);
 }
 
 .color-0{
@@ -48,12 +48,6 @@ img{
     fill: $cube_1; //circa nero
 }
 .color-2{
-    fill: $cube_2; //grigio scuro
-}
-.color-3{
-    fill: $cube_3; //grigio chiaro
-}
-.color-4{
-    fill: $cube_4; //rosso
+    fill: $median_0; //grigio chiaro
 }
 </style>

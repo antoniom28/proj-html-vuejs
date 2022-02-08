@@ -19,7 +19,6 @@
 
     <div v-else id="" class="classic-box">
         <span
-            class="reviews"
             :class="data.textColor"
         >
             {{data.text}}
@@ -31,6 +30,7 @@
             alt=""
         >
         <span
+            class="reviews"
             :class="data.titleColor"
         >
             {{data.name}}
@@ -55,18 +55,16 @@ export default {
 <style lang="scss" scoped>
 @import '../../assets/style/partials/variables.scss';
 
-.classic-box > *{
-    margin: 15px 0;
+.classic-box{
+    width: 300px;
 }
 
 span{
     display: inline-block;
-    width: 300px;
 }
 
-span.reviews{
-    display: inline-block;
-    width: 250px;
+.classic-box > *{
+    margin: 15px 0;
 }
 
 .rounded{
@@ -93,7 +91,7 @@ img.medium{
 }
 
 h1{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 //formati colore testo o altro, basta aggiungere gli altri quando sarà bisogno

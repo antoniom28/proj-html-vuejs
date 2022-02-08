@@ -4,6 +4,7 @@
         <AvadaProducts />
         <FeaturedProduct />
         <Reviews />
+        <Blog />
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import Services from '../section/Services.vue'
 import AvadaProducts from '../section/AvadaProducts.vue'
 import FeaturedProduct from '../section/FeaturedProduct.vue'
 import Reviews from '../section/Reviews.vue'
+import Blog from '../section/Blog.vue'
 
 export default {
     name: 'Main',
@@ -21,6 +23,7 @@ export default {
         AvadaProducts,
         FeaturedProduct,
         Reviews,
+        Blog,
     },
 }
 </script>

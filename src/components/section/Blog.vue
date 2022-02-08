@@ -1,33 +1,38 @@
 <template>
-    <div id="reviews" class="">
+    <div id="blog" class="">
+        <Median classColor="color-0 bottom" />
         <div class="title">
-            <span>WHAT PEOPLE SAY</span>
-            <h1>Reviews</h1>
+            <span>TALES FROM THE BARBER SHOP</span>
+            <h1>Recent Blog Post</h1>
         </div>
-        <div class="reviews-box">
-            <BoxThumbTitle 
-                v-for="(data,index) in dataReviews"
+        <div class="blog-box">
+           <BoxThumbTitle 
+                v-for="(data,index) in dataBlog"
                 :key="index"
                 :data="data"
-                type="reviews"
             />
         </div>
+        <Button msg="READ MORE FROM OUR BLOG"/>
     </div>
 </template>
 
 <script>
 import BoxThumbTitle from '../common/BoxThumbTitle.vue'
 import AllData from '../../assets/data/AllData.json'
+import Button from '../common/Button.vue'
+import Median from '../common/Median.vue'
 
 export default {
-    name: "Reviews",
+    name: "Blog",
     data(){
         return{
-            dataReviews: AllData.reviews, 
+            dataBlog: AllData.blog, 
         }
     },
     components: {
         BoxThumbTitle,
+        Button,
+        Median,
     },
     props: {},
     methods: {},
@@ -36,15 +41,17 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/style/partials/variables.scss';
-#reviews{
+#blog{
     text-align: center;
+    background-color: $median_0;
+    padding-bottom: 50px;
 }
 
-#reviews > *{
+#blog > *{
     margin: 50px 0;
 }
 
-.reviews-box{
+.blog-box{
     padding: 0 180px;
     display: flex;
     flex-wrap: wrap;

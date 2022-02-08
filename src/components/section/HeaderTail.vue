@@ -9,7 +9,6 @@
 </template>
 <script>
 import Button from '../common/Button.vue'
-import Median from '../common/Median.vue'
 
 export default {
     name: "HeaderTail",
@@ -18,7 +17,6 @@ export default {
     },
     components: {
         Button,
-        Median,
     },
     props: {},
     methods: {},

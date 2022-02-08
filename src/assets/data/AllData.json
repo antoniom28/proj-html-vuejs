@@ -68,7 +68,7 @@
             "titleColor" : "color-1",
             "thumb": "avadabarbers-trimcut-gallery6.jpg",
             "thumbSize" : "small",
-            "text": "Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, officiis dicta. Temporibus quibusdam possimus consequatur atque voluptas. Iusto, deleniti doloribus maiores, nisi placeat at ut labore repellendus cum animi laudantium.",
             "textColor" : "color-2"
         },
         {
@@ -76,7 +76,7 @@
             "titleColor" : "color-1",
             "thumb": "avadabarbers-trimcut-gallery7.jpg",
             "thumbSize" : "small",
-            "text": "Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, officiis dicta. Temporibus quibusdam possimus consequatur atque voluptas. Iusto, deleniti doloribus maiores, nisi placeat at ut labore repellendus cum animi laudantium.",
             "textColor" : "color-2"
         },
         {
@@ -84,7 +84,35 @@
             "titleColor" : "color-1",
             "thumb": "avadabarbers-trimcut-gallery3.jpg",
             "thumbSize" : "small",
-            "text": "Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, officiis dicta. Temporibus quibusdam possimus consequatur atque voluptas. Iusto, deleniti doloribus maiores, nisi placeat at ut labore repellendus cum animi laudantium.",
+            "textColor" : "color-2"
+        }
+    ],
+
+
+    "blog" : [
+        {
+            "thumb" : "avadabarbers-second-blog-700x441.jpg",
+            "thumbSize" : "medium",
+            "title" : "Avada Barbers Now Open",
+            "titleColor" : "color-1",
+            "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, officiis dicta. Temporibus quibusdam possimus consequatur atque voluptas. Iusto, deleniti doloribus maiores, nisi placeat at ut labore repellendus cum animi laudantium.",
+            "textColor" : "color-2"
+        },
+        {
+            "thumb" : "avadabarbers-choosing-blog-700x441.jpg",
+            "thumbSize" : "medium",
+            "title" : "Choosing The Right Barber",
+            "titleColor" : "color-1",
+            "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, officiis dicta. Temporibus quibusdam possimus consequatur atque voluptas. Iusto, deleniti doloribus maiores, nisi placeat at ut labore repellendus cum animi laudantium.",
+            "textColor" : "color-2"
+        },
+        {
+            "thumb" : "avadabarbers-ourservice-blog-700x441.jpg",
+            "thumbSize" : "medium",
+            "title" : "Quick Service Guide",
+            "titleColor" : "color-1",
+            "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, officiis dicta. Temporibus quibusdam possimus consequatur atque voluptas. Iusto, deleniti doloribus maiores, nisi placeat at ut labore repellendus cum animi laudantium.",
             "textColor" : "color-2"
         }
     ]
