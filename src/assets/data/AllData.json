@@ -1,4 +1,12 @@
 {
+    "yourInfo" : {
+            "name": "Avada Barbers",
+            "addres": "123 New York Street",
+            "city": "New York City",
+            "mail": "info@yourwebsite.com",
+            "number": "+1 (555) 555-1212"
+        }
+    ,
     "services" : [
         {
             "thumb" : "avadabarbers-trimcut-icon-before.png",
