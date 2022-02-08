@@ -1,5 +1,5 @@
 <template>
-    <div id="" class="classic-box">
+    <div v-if="type != 'reviews'" id="" class="classic-box">
         <img 
             :class="data.thumbSize"
             :src="require('../../assets/img/Main/' + data.thumb)" 
@@ -16,6 +16,26 @@
             {{data.text}}
         </span>
     </div>
+
+    <div v-else id="" class="classic-box">
+        <span
+            class="reviews"
+            :class="data.textColor"
+        >
+            {{data.text}}
+        </span>
+        <img 
+            :class="data.thumbSize"
+            class="rounded"
+            :src="require('../../assets/img/Main/' + data.thumb)" 
+            alt=""
+        >
+        <span
+            :class="data.titleColor"
+        >
+            {{data.name}}
+        </span>
+    </div>
 </template>
 
 <script>
@@ -26,6 +46,7 @@ export default {
     },
     props: {
         data: Object,
+        type: String,
     },
     methods: {},
 }
@@ -43,6 +64,16 @@ span{
     width: 300px;
 }
 
+span.reviews{
+    display: inline-block;
+    width: 250px;
+}
+
+.rounded{
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}
 //formati immagine, basta aggiungere gli altri quando ci sarà bisogno
 img{
     width: 100px;
