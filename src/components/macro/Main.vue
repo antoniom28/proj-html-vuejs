@@ -1,20 +1,17 @@
 <template>
     <main class="container">
-        <!-- <elem /> -->
-        {{msg}}
+        <Services />
     </main>
 </template>
 
 <script>
-//import elem from '../section/elem.vue'
+import Services from '../section/Services.vue'
 
 export default {
     name: 'Main',
-    props: {
-        msg: String,
-    },
+    props: {},
     components: {
-        //elem,
+        Services,
     },
 }
 </script>

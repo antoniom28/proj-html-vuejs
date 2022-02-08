@@ -1,0 +1,28 @@
+{
+    "services" : [
+        {
+            "thumb" : "avadabarbers-trimcut-icon-before.png",
+            "thumbSize" : "e-small",
+            "title" : "Trim & Cut",
+            "titleColor" : "color-1",
+            "text" : "Avada Barbers are experts in the lickety split trim and hari cut. Quick but careful and ridiculously good looking.",
+            "textColor" : "color-2"
+        },
+        {
+            "thumb" : "avadabarbers-washndry-icon.png",
+            "thumbSize" : "small",
+            "title" : "Wash & Dry",
+            "titleColor" : "color-1",
+            "text" : "Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.",
+            "textColor" : "color-2"
+        },
+        {
+            "thumb" : "avadabarbers-beardtrim-icon.png",
+            "thumbSize" : "e-small",
+            "title" : "Beard Tidy",
+            "titleColor" : "color-1",
+            "text" : "Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers.",
+            "textColor" : "color-2"
+        }
+    ]
+}
