@@ -41,7 +41,7 @@ export default {
     background-color: $cube_1;
     border-top: 3px solid $text_color;
     display: flex;
-    width: 880px;
+    width: 65%;
     margin: 0 auto;
     transform: translateY(-50px);
 }
