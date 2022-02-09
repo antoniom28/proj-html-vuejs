@@ -1,5 +1,5 @@
 <template>
-    <div id="" class="footer-info">
+    <div id="info" class="footer-info">
         <div class="logo">
             <img src="../../assets/img/Footer/avadabarbers-logo-x1.png" alt="">
         </div>

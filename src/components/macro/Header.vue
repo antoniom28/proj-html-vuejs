@@ -31,11 +31,6 @@ export default {
         HeaderMenu,
         HeaderMainBox,
     },
-    data(){
-        return{
-           // menuItem: ['elem1','elem2','elem3'],
-        }
-    },
     props: {},
     methods: {},
 }
